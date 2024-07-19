@@ -1,0 +1,1593 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+input[type="checkbox"]:checked~#menu {
+    display: block;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+header {
+
+    text-align: center;
+}
+
+.textslider {
+    padding: 20px;
+    background: #F2F2F2FF;
+    ;
+}
+
+.slidcont {
+    margin-bottom: 16px;
+}
+
+.slidcont p {
+    font-size: .75em;
+    color: #6e6e73;
+}
+
+.slidcont a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 48%;
+    height: 40px;
+    display: flex;
+
+
+}
+
+nav {
+
+
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+#bars {
+    cursor: pointer;
+    display: none;
+}
+
+#menu {
+    width: 100%;
+    background: #fbfbfd;;
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+
+
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.list li{
+    margin: 15px 0;
+}
+.list a{
+    text-decoration: none;
+    color: #333336FF;
+    font-size: 1.75em;
+    margin: 40px;
+}
+
+.logos {
+    display: flex;
+}
+
+.desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+label {
+    display: block;
+    vertical-align: top;
+    margin: 10px;
+    text-align: right;
+    font-size:25px;
+    cursor: pointer;
+}
+
+#bar {
+    display: none;
+}
+
+.slider {
+    background: #fff;
+}
+
+#titanum {
+    background: #000;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.new {
+    color: #bf4800;
+    font-size: .9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titanum h6 {
+    color: #8B887EFF;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.titaniumtop {
+    background: url(../img/headline_titanium.jpg) center / contain no-repeat;
+    height: 45px;
+    margin: 20px 0;
+
+}
+
+.sale {
+    margin: auto;
+    color: #f5f5f7;
+    font-size: 1em;
+    width: 50%;
+}
+
+.titaniumbtn {
+    margin: 20px 0;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    background-color: #0071e3;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+.learn {
+    padding: 20px 0;
+    font-size: 1.2em;
+    color: #2997ff;
+    text-decoration: none;
+}
+
+.titanumbot {
+    background: url(../img/titanium.jpg) center / contain no-repeat;
+    height: 50vh;
+    margin: 20px 0;
+}
+
+#newphoria {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    text-align: center;
+    padding: 16px 0;
+}
+
+#newphoria h2 {
+    font-size: 2em;
+}
+
+#newphoria .sale {
+    margin: auto;
+    color: #000;
+    font-size: 1em;
+    width: 50%;
+}
+
+.titaniumbtn {
+    margin: 20px 0;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    background-color: #0071e3;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+#newphoria .learn {
+    padding: 20px 0;
+    font-size: 1.2em;
+    color: #2997ff;
+    text-decoration: none;
+}
+
+#newphoria .newphoria {
+    background: url(../img/hero_iphone.jpg) center / contain no-repeat;
+    height: 20vh;
+    margin: 20px 0;
+}
+
+#power {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FBFBFDFF;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.powertop {
+    width: 100%;
+}
+
+.powertop h6 {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.powertop h2 {
+    color: #1e3791;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.powertop p {
+    font-size: 1em;
+    margin: auto;
+    width: 50%;
+}
+
+.powerbot {
+    background: url(../img/iphon2.png) center / contain no-repeat;
+    height: 50vh;
+    margin: 20px 0;
+}
+
+#tour {
+    background: #fff;
+}
+
+.tourtop {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.tourtop h6 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.tourtop h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.tourtop a {
+    color: #2997ff;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#tourbttext {
+    display: none;
+}
+
+.tourbottom {
+    background: url(../img/tour.jpg)center / cover no-repeat;
+    height: 50vh;
+    margin: 16px 0;
+}
+
+#foryou {
+    background: #fff;
+    padding: 48px;
+    width: 100%;
+
+}
+
+.fortext {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.fortext h2 {
+    font-size: 2em;
+    padding: 30px 0;
+}
+
+.forblcok {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.foryoucard {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.foryouimg {
+    margin: auto;
+    width: 125px;
+    height: 180px;
+}
+
+.colorimg {
+    width: 95px;
+    height: 45px;
+    margin: auto;
+}
+
+.colorimg img {
+
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.foryoucard span {
+    color: #bf4800;
+    font-size: .75em;
+}
+
+.foryoucard h6 {
+    color: #1d1d1f;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.foryoucard h5 {
+    color: #1d1d1f;
+    padding: 5px 0 20px 0;
+    font-size: 1em;
+}
+
+.foryoucard p {
+    color: #1d1d1f;
+    margin-bottom: 1rem;
+    font-size: .8em;
+}
+
+.foryoucard button {
+    margin: auto;
+    width: 57px;
+    height: 34px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0071e3;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+.foryoucard a {
+    color: #0071e3;
+    font-size: 1.18em;
+    text-decoration: none;
+    padding-bottom: 18px;
+}
+
+.infoblcok {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.infoblcok .info {
+    padding: 15px 0;
+}
+
+.info2top {
+    background: url(../img/icon1.png)center / contain no-repeat;
+    height: 41px;
+    width: 55px;
+    margin: auto;
+}
+
+.info3top {
+    background: url(../img/icon2.png)center / contain no-repeat;
+    height: 41px;
+    width: 55px;
+    margin: auto;
+}
+
+.info4top {
+    background: url(../img/icon3.png)center / contain no-repeat;
+    height: 41px;
+    width: 55px;
+    margin: auto;
+}
+
+.info5top p {
+    font-size: .8em;
+}
+
+.info5top h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.info6top {
+    background: url(../img/iconsos.png)center / contain no-repeat;
+    height: 41px;
+    width: 55px;
+    margin: auto;
+}
+
+.info7top {
+    background: url(../img/batryicon.png)center / contain no-repeat;
+    height: 38px;
+    width: 38px;
+    margin: auto;
+}
+
+.info8top {
+    background: url(../img/sarjicon.png)center / contain no-repeat;
+    height: 38px;
+    width: 38px;
+    margin: auto;
+}
+
+.info9top {
+    background: url(../img/faceicon.png)center / contain no-repeat;
+    height: 38px;
+    width: 38px;
+    margin: auto;
+}
+
+#foryou .link {
+    padding-top: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+.link a {
+
+    text-decoration: none;
+    color: #0071e3;
+    font-size: 1.18em;
+}
+
+#ways {
+    padding: 30px 0;
+    text-align: center;
+    background: #F2F2F2FF;
+}
+
+.savecard {
+    background: transparent;
+}
+
+#ways>h2 {
+    padding: 30px 0;
+}
+
+#savephone,
+#phone {
+    padding: 30px;
+}
+
+.savecard1 {
+    width: 100%;
+
+    margin: 16px 0;
+}
+
+#savephone,
+#phone .savecard1 {
+
+    border-radius: 5px;
+
+}
+
+#savephone .savecard1 {
+    background: #fff;
+    border-radius: 5px;
+
+}
+
+.savecard2 h5 {
+
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.savecard1 h2 {
+    padding: 30px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.savetext {
+    padding: 20px
+}
+
+.savecard2 p {
+
+    color: #6e6e73;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+#phonep {
+
+    color: #212529;
+    font-size: 1.1em;
+}
+
+.savecard1 a {
+    display: block;
+    text-decoration: none;
+    color: #06c;
+    font-size: .9em;
+    margin: 10px 0;
+}
+
+#phonea {
+    font-size: 1.18em;
+}
+
+.savecad2botm {
+    background: url(../img/p1.jpg)center / contain no-repeat;
+    height: 30vh;
+}
+
+.savecad3botm {
+    background: url(../img/p2.jpg)center / contain no-repeat;
+    height: 20vh;
+    margin-bottom: 20px;
+
+}
+
+#phone {
+    background: #fff;
+}
+
+.savecad4botm {
+    background: url(../img/p3.jpg) bottom / contain no-repeat;
+    height: 30vh;
+}
+
+.savecad5botm {
+    background: url(../img/p4.jpg) center / cover no-repeat;
+    height: 25vh;
+}
+
+#phoneacss h2 {
+    padding: 30px 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.accscard1 {
+    background: #fff;
+    margin: 20px;
+}
+
+.accsescont p {
+    padding: 5px 30px;
+}
+
+.arrow {
+    margin: 0 1em;
+}
+
+.accsbtm {
+    background: url(../img/phone1.jpg) center / contain no-repeat;
+    height: 20vh;
+}
+
+.accsbtm2 {
+    background: url(../img/acs.jpg) center / cover no-repeat;
+    height: 40vh;
+}
+
+.accsbtm3 {
+    background: url(../img/qulaqliq.jpg) center / contain no-repeat;
+    height: 20vh;
+}
+
+#shop {
+    max-width: 960px;
+    margin: auto;
+}
+
+.shopcont {
+    padding: 0 12px;
+    margin: 48px 0;
+
+}
+
+.shopcont a {
+    font-size: 1.1875em;
+    color: #2997ff;
+    text-decoration: none;
+}
+
+.shopcart h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.anblock {
+    padding: 20px;
+}
+
+.anblock>h2 {
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.anblocsk {
+    padding: 20px;
+}
+
+#anph2 {
+    padding: 20px;
+}
+
+.ancard {
+
+    margin: 20px 0;
+    background: #fff;
+}
+
+.antext h2 {
+    padding: 20px 0;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.antext a {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.ancardbotm {
+    background: url(../img/iso1.jpg) 40% -105px / cover no-repeat;
+    height: 60vh;
+    width: 100%;
+}
+
+.ancardbotm2 {
+    background: url(../img/iso17.jpg) 50% 50px / cover no-repeat;
+    height: 40vh;
+
+}
+
+.ancardbotm3 {
+    background: url(../img/privacy.jpg) 50% -100px / cover no-repeat;
+
+    height: 50vh;
+
+}
+
+#tv {
+    padding: 20px;
+}
+
+.getblock2 {
+    padding: 10px;
+}
+
+.getcard {
+    margin: 10px 0;
+    background: #fff;
+    padding: 0 12px;
+}
+
+#black {
+    background: #000;
+}
+
+#wihte {
+    color: #fff;
+}
+
+.getcard P {
+    font-size: 1.4em;
+}
+
+.getcard a {
+    text-decoration: none;
+    font-size: 1.18em;
+}
+
+.gettop {
+    background: url(../img/apple_one__cq8ojsqxitea_large.jpg)center / contain no-repeat;
+    width: 90px;
+    height: 30px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.getbtm {
+    background: url(../img/bundle__dlqe12erfzsm_large.jpg)center / contain no-repeat;
+    height: 180px;
+    margin-top: 30px;
+}
+
+.gettop2 {
+    background: url(../img/apple_tv_plus_logo__gkj8brywycuq_small_2x.png)center / contain no-repeat;
+    width: 90px;
+    height: 30px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.getbtm2 {
+    background: url(../img/tv.png)center / cover no-repeat;
+    height: 50vh;
+
+}
+
+#ibotm {
+    margin: 0 5px;
+    margin-bottom: .3em
+}
+
+.gettop3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.gettop3 i {
+    padding-bottom: 10px;
+    font-size: .8em;
+}
+
+.getbtm3 {
+    background: url(../img/684x384.jpg )center / cover no-repeat;
+    height: 40vh;
+
+}
+
+.fitnesblock {
+    padding: 20px;
+}
+
+.fitnescard {
+    text-align: center;
+    margin: 20px 0;
+    background: #F9F9F9FF;
+
+}
+
+.fitnescard a {
+    font-size: 1.1em;
+}
+
+.fitness-logo {
+    gap: 10px;
+}
+
+.fitness-logo i {
+    font-size: 2em;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.fitness-logo h2 {
+    font-size: 2em !important;
+    font-weight: 700;
+}
+
+.fitncarbt {
+    background: url(../img/update_promo_apple_fitness_iphone__762tbwjyo5ee_small.jpg)50% -100px / cover no-repeat;
+    height: 50vh;
+}
+
+.fitncarbt2 {
+    background: url(../img/Screenshot\ 2024-03-04\ 184214.png)100% 150px / contain no-repeat;
+    height: 50vh;
+}
+
+.fitncarbt3 {
+    background: url(../img/apple_news_plus_tile_update_x__crr8y9ssslqq_small.jpg)50% -130px / cover no-repeat;
+    height: 50vh;
+}
+
+.fitncarbt4 {
+    background: url(../img/giftcard_tile__dartrujkircm_small_2x.jpg)center / cover no-repeat;
+
+    height: 40vh;
+}
+
+.introcard {
+    background-color: #F9F9F9FF;
+}
+
+.introtop h2 {
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+.introtop a {
+    font-size: 1.1875em;
+}
+
+.introbtm {
+    background: url(../img/apple-research__czkoifogwkeq_small.jpg)center / contain no-repeat;
+    height: 30vh;
+}
+footer{
+    background: #fff;
+  
+  
+}
+.footertop-one p {
+    font-size: .9em;
+    color: #0000007a;
+}
+.footertop-one {
+    
+ margin: auto;
+    padding: 30px 12px;
+}
+.footertop-one li{
+    font-size: .9em;
+    color: #0000007a;
+}
+hr{
+    margin: 1rem ;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid ;
+    opacity: .25;
+}
+.twologo{
+    margin: auto;
+    gap: 5px;
+    
+}
+.twologo svg{
+    width: 48px;
+    height: 48px;
+}
+.span{
+    font-size: .8rem;
+    color: #000000bd;
+}
+.accordion-header{
+    border-top: 1px solid #dee2e6;
+}
+.accordion-button{
+   
+    background-color: transparent;
+    color: #000000bd;
+    font-size: .8rem;
+    padding: 16px 20px;
+}
+.footertop-one ol{
+    padding: 12px;
+}
+.accordion-body ul {
+    list-style: none;
+    
+}
+
+.accordion-body li{
+   
+    font-size: .8rem;
+    color: #000000bd;
+}
+#footerbtm{
+    font-size: .8rem;
+    color: #000000bd;
+}
+#footerbtm p{
+    padding: 0 .8rem;
+    
+}
+#hr{
+    margin: 1rem ;
+    color: inherit;
+    border: 0;
+    border-top:1px  solid;
+    opacity: .25;
+}
+.desktopftr{
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    .textslider {
+        margin: auto;
+        max-width: 960px;
+        padding: 20px;
+        background: #F2F2F2FF;
+        ;
+    }
+
+    .slidcont {
+        margin-bottom: 16px;
+    }
+
+    .slidcont p {
+        font-size: 1.3em;
+        color: #000;
+    }
+
+    .slidcont a {
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+
+    .logos {
+        transform: translate(0, -5px);
+    }
+
+    #logo {
+
+        width: 50px;
+        height: 50px;
+    }
+
+    .desktop {
+
+        display: flex;
+
+        justify-content: center;
+        position: relative;
+
+    }
+
+    #bars {
+        cursor: pointer;
+        display: none;
+    }
+
+    #menu {
+        width: 100%;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        background: none;
+        position: initial;
+        height: 0;
+        top: 0;
+        left: 0;
+
+
+    }
+    .list a{
+       display: none;
+    }
+    .list {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    #menu li {
+        display: block;
+
+        font-size: 20px;
+        border-bottom: 1px solid #ccc;
+
+    }
+
+    #menu a {
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    label {
+        display: none;
+    }
+
+    .sale {
+        margin: auto;
+        color: #f5f5f7;
+        font-size: 1.3em;
+
+    }
+
+    #learn {
+        padding: 20px;
+        font-size: 1.2em;
+        color: #2997ff;
+        text-decoration: none;
+    }
+
+    .titanumbot {
+        background: url(../img/titanium.jpg) center / contain no-repeat;
+        height: 70vh;
+        margin-top: -10%;
+        transform: rotate(-90deg);
+
+    }
+
+    #newphoria h2 {
+        font-size: 2.8rem;
+    }
+
+    #newphoria .newphoria {
+        background: url(../img/hero_iphone.jpg) center / contain no-repeat;
+        height: 55vh;
+        margin: 20px 0;
+    }
+
+    .powertop {
+        width: 50%;
+        margin: 30vh auto;
+    }
+
+    .powertop h2 {
+        font-size: 2.8rem;
+    }
+
+    .powertop h6 {
+        font-size: 1.2em;
+    }
+
+    .powertop .learn {
+        font-size: 1.2em;
+    }
+
+    .powertop p {
+        font-size: 1.3em;
+    }
+
+    #power {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+
+    .powerbot {
+        width: 50%;
+        background: url(../img/iphon2.png) center / contain no-repeat;
+        height: 100vh;
+        margin: 20px 0;
+    }
+
+    #tour {
+        background: #fff;
+        padding: 10px;
+
+    }
+
+    .tourtop {
+        display: none;
+    }
+
+    #tourbttext {
+        position: absolute;
+        display: initial;
+        top: 40%;
+        left: 15%;
+        text-align: start;
+    }
+
+    #tourbttext h6 {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #tourbttext h3 {
+        color: #fff;
+        font-size: 2.4em;
+        font-weight: 600;
+    }
+
+    .tourbtn {
+        margin: 16px 0;
+    }
+
+    #tourbttext a {
+        border-radius: 20px;
+        width: 60%;
+        background: #fff;
+
+        padding: 10px;
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+
+    }
+
+    #tour .tourbottom {
+        position: relative;
+        margin: 20px;
+        background: url(../img/tour.jpg)center / cover no-repeat;
+        height: 100vh;
+        border-radius: 30px;
+    }
+
+    .fortext {
+        padding: 30px 0;
+    }
+
+    .fortext h2 {
+        font-size: 3rem;
+    }
+
+    .forblcok {
+        width: 100%;
+        gap: 10px;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    #foryou .link {
+        padding-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #ways {
+        width: 100%;
+    }
+
+    .phoneblcok {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        max-width: 960px;
+    }
+
+    #svcr2 {
+
+        width: 33, 3%;
+
+    }
+
+    .savecard1 {
+
+        margin: 0 1em;
+    }
+
+    #phone {
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .savecad5botm {
+        background: url(../img/p4.jpg);
+        background-position: 50% 200px;
+        width: 100%;
+        height: 20vh;
+    }
+   
+    .savecard1 {
+        width: 100%;
+        height: 70vh;
+        margin: 16px ;
+    }
+    .accscard1 {
+        margin: auto;
+        width: 80%;
+    }
+    #ancard2{
+        width: 100%;
+    }
+    .accscard2 {
+        margin: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .rows {
+
+        flex-direction: row-reverse;
+    }
+
+    .colmun {
+
+        flex-direction: column;
+    }
+
+    .columtext {
+        width: 100%;
+    }
+
+    .acscardtext {
+        margin: auto;
+        width: 50%;
+    }
+
+    .acscardtext p {
+        margin: auto;
+        width: 60%;
+    }
+
+    .accsbtm {
+        background: url(../img/phone1.jpg) center / contain no-repeat;
+
+        width: 50%;
+    }
+
+    .accsbtm2 {
+        background: url(../img/acs.jpg) center / cover no-repeat;
+        width: 50%;
+        height: 80vh;
+    }
+
+    #phoneacss h2 {
+        font-size: 2.8em;
+
+    }
+
+    .accsbtm3 {
+        background: url(../img/qulaqliq.jpg) center / contain no-repeat;
+        width: 85%;
+        height: 60vh;
+    }
+
+    .arrow {
+        margin: 0 10px;
+    }
+
+    .shopbblock {
+        display: flex;
+        flex-direction: row;
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .shopcart {
+        width: 33.3%;
+    }
+
+   
+
+    #aniphone {
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .anblock h2 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .anblocsk {
+        margin: auto;
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .antext {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .antext h2 {
+        font-size: 2em;
+        font-weight: bold;
+
+    }
+
+    .ancardbotm {
+        background: url(../img/iso1.jpg) 40% -105px / cover no-repeat;
+        height: 80vh;
+       
+    }
+
+    .ancardbotm2 {
+        background: url(../img/iso17.jpg) 50% 50px / cover no-repeat;
+        height: 50vh;
+
+    }
+
+    .ancardbotm3 {
+        background: url(../img/privacy.jpg) 50% -100px / cover no-repeat;
+
+        height: 50vh;
+
+    }
+
+    #getmore {
+        max-width: 960px;
+        margin: auto;
+
+    }
+
+    #tv {
+        padding-top: 3rem;
+        max-width: 960px;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .tvblcoc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .gettext {
+        width: 50%;
+    }
+
+    .getbtm {
+        width: 50%;
+    }
+
+    #anph2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .getcard2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .gettext p {
+        font-size: 1.4em;
+        padding: 20px 0 10px 0;
+    }
+
+    .gettop {
+        background: url(../img/apple_one__cq8ojsqxitea_large.jpg)center / contain no-repeat;
+        width: 40%;
+        height: 40%;
+
+    }
+
+    .getbtm {
+        background: url(../img/bundle__dlqe12erfzsm_large.jpg)center / contain no-repeat;
+        height: 70vh;
+
+    }
+
+    .gettop2 {
+        background: url(../img/apple_tv_plus_logo__gkj8brywycuq_small_2x.png)center / contain no-repeat;
+        width: 90px;
+        height: 30px;
+        padding-top: 50px;
+        margin: auto;
+    }
+
+    .getbtm2 {
+        background: url(../img/tv.png)center / cover no-repeat;
+        height: 50vh;
+
+    }
+
+    #ibotm {
+        font-size: .9em;
+        margin: 0 5px;
+        margin-bottom: .3em
+    }
+
+    .gettop3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .gettop3 i {
+        
+        padding-bottom: 10px;
+        font-size: 3em;
+    }
+
+    .getbtm3 {
+        background: url(../img/684x384.jpg )center / cover no-repeat;
+        height: 40vh;
+
+    }
+
+    .wdth {
+        width: 50%;
+    }
+
+    .textsize {
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+
+    .toppading {
+        padding-top: 2em;
+    }
+
+    #fitness,
+    #introducing {
+        margin: auto;
+        max-width: 960px;
+    }
+
+    .fitnesblock {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .fitnesheght{
+        height: 80vh;
+    }
+    .fitnescard {
+        margin: auto;
+        width: 45%;
+
+    }
+
+    .fitncarbt {
+        background: url(../img/update_promo_apple_fitness_iphone__762tbwjyo5ee_small.jpg)50% -100px / cover no-repeat;
+        height: 50vh;
+    }
+
+    .fitncarbt2 {
+        background: url(../img/Screenshot\ 2024-03-04\ 184214.png)100% 150px / contain no-repeat;
+        height: 50vh;
+    }
+
+    .fitncarbt3 {
+        background: url(../img/apple_news_plus_tile_update_x__crr8y9ssslqq_small.jpg)50% -130px / cover no-repeat;
+        ;
+        height: 50vh;
+    }
+
+    .fitncarbt4 {
+        background: url(../img/giftcard_tile__dartrujkircm_small_2x.jpg)center/ cover no-repeat;
+        ;
+        height: 40vh;
+    }
+
+    .introbtm {
+        background: url(../img/apple-research__czkoifogwkeq_small.jpg)center / contain no-repeat;
+        height: 50vh;
+        width: 50%;
+        display: none;
+    }
+
+    .introbtm2 {
+        background: url(../img/wal2.jpg)center / contain no-repeat;
+        height: 50vh;
+        width: 50%;
+    }
+
+    #introducing {
+        max-width: 960px;
+    }
+
+    .introcard {
+        min-width: 70vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .introtop h2 {
+        font-size: 2.8rem;
+    }
+
+    .introtop {
+        width: 50%;
+    }
+
+.footermobil{
+    display: none;
+}
+footer{
+    background: #fff;
+}
+.footertop{
+    margin: auto;
+width: 60%;
+padding: 30px 0;
+}
+.cardr1 ul{
+    list-style: none;
+}
+.cardr1 h6{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.cardr1 a{
+    font-size: .7em;
+        font-weight: 400;
+        color: #000000b8;
+        text-decoration: none;
+}
+.desktopftr{
+    display: flex;
+    width: 100%;
+}
+#footerbtm{
+   
+    
+    font-size: .8rem;
+    color: #000000bd;
+}
+#footerbtmtexts{
+    display: flex;
+    justify-content: space-between;
+}
+/* Hoverler */
+.hoverefkt1:hover{
+    transition: .5s ease;
+    transform: translate( 0, -50px);
+}
+.hoverefkt2:hover{
+    transition: .5s ease;
+    transform: scale(.9);
+}
+.hoverefkt3:hover{
+    transition: .5s ease;
+    transform: translateX(30px);
+}
+.hoverefkt3X:hover{
+    transition: .5s ease;
+    transform: translateX(-30px);
+}
+.hoverefkt4:hover{
+    transition: .5s ease;
+    transform: scale(1.02);
+}
+}
