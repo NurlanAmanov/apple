@@ -118,7 +118,9 @@ input[type="checkbox"]:checked~div {
     background: #F2F2F2FF;
 
 }
-
+.container2{
+    scrollbar-width: none;
+}
 .slider {
     background: #fff;
     overflow-y: hidden;
