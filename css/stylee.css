@@ -10,9 +10,7 @@ a {
     color: #2997ff;
 }
 
-.desktoop {
-    display: none;
-}
+
 
 ul {
     list-style: none;
@@ -998,6 +996,7 @@ hr {
         list-style: none;
     }
 .desktops li a{
+    cursor: pointer;
     color: #000000cc;
         font-weight: 600;
         font-size: .75em;
@@ -1019,7 +1018,7 @@ hr {
        
     }
 
-    .desktoop .menu a:hover {
+    .desktops li a:hover {
         border-bottom: 1px solid #00dbe3;
     }
 
